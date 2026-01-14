@@ -1628,7 +1628,11 @@ input, select, textarea {
 		.image.featured img {
 			aspect-ratio: 4 / 3;
 			object-fit: cover;
-			posi
+		}
+
+		#details-pic {
+			aspect-ratio: 16 / 5 !important;
+			object-fit: cover !important;
 		}
 
 /* Button */
@@ -1665,7 +1669,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			background-color: #335c4b;
 		}
 
 		input[type="button"].large,
@@ -1682,7 +1686,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #015e37 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1691,7 +1695,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #335c4b;
 			}
 
 			input[type="button"].style1:active,
@@ -1860,7 +1864,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: #015e37 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2045,7 +2049,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 .image {
-				border: solid 10px #fff;
+				border: solid 10px #b7b7b7;
 			}
 
 /* Page Wrapper */
@@ -2272,7 +2276,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #015e37;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
